@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+			<!--Slide 1-->
+					<h1>Slide 1</h1><br>
+					<h2>Carla Guandique</h2>
+					<p>
+						CISW17
+					</p>
+				</section>
+				<section data-background="#c04ff0">
+			<!--Slide 2-->
+					<h1>Slide 2</h1><br>
+						<aside class="notes">
+						<p>Some notes</p>
+						</aside>
+						<p>Some slide text</p>
+						<aside class="notes">
+						<p>and some more notes</p>
+					</aside>
+				</section>
+				<section data-transition="zoom-in fade-out">
+					<h1>Slide 3</h1>
+					<h3>Zoom-in and Fade-out</h3>
+				</section>
+				<section>
+					<h1> SLide 4</h1>
+					<h2> CSS transformation</h2>
+					<p>
+						CSS transforms property and applies a 2D or 3D transformation to an element. This property allows you to rotate, scale, move, skew, etc., all the elements.
+					</p>
+				</section>
+				<section>
+					<h1> Slide 5</h1>
+					<h3>Transtion inludes:</h3>
+					<ul>
+                        <li>Skew</li>
+						<li>Rotate</li>
+						<li>Move</li>
+						<li>Scale</li>
+						<li>and more...</li>
+					</ul>
+				</section>
+				<section>
+					    <h1>Slide 6</h1>
+						<h2>Thank you!</h2>
+				</section>
+                <section data-background-image="http://placekitten.com/800/177">
+                        <h1> Slide 7</h1>
+                </section>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>

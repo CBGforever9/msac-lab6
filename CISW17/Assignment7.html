@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+ <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Web Design Notes</title>
+    <!--
+   Carla Guandique
+   Assignment Name:Responsive Webdesign Notes
+   October, 14 2022
+    -->
+    <style>
+     body {
+        margin: auto;
+        font-size: 18px;
+        line-height: 1.5em;
+        max-width: 85%;
+        font-family: Helvetica, sans-serif;
+        background-position: center;
+        background-color: #f3f3f3;
+        color: slate;
+     }
+     h1,h2 {
+      font-weight:400
+     }
+     @media screen and (min-width: 750px) {
+                h1 {
+                    font-size: 1.5em;
+                }
+
+                h2 {
+                    font-size: 1.25em;
+                }
+            }
+
+            @media screen and (max-width: 749px) {
+                body {
+                    line-height: 1.2em;
+                }
+
+                h1 {
+                    font-size: 1.25em;
+                }
+
+                h2 {
+                    font-size: 1.1em;
+                }
+            }
+    </style>
+</head>
+<body>
+   <h1>Responsive Web Design Notes</h1>
+
+        <h2>Lesson 16: Understanding the Importance of Responsive Web Design</h2>
+
+        <p>Responsive web design (RWD) is an approach to web design that considers the customers device
+         and adapts the design for optimal viewing. RWD helps web designers and site owners by creating an “edit once, display anywhere” website</p><br>
+
+        <p>
+          Responsive web design is a combination of many design techniques, including the following:<br>
+          <li>CSS—especially media queries</li>
+          <li>Cleans</li>
+          <li>valid HTML code</li>
+          <li>Progressive enhancement</li>
+          <li>Feature device</li>
+          <li>browser detection using scripts</li>
+          <li>Server-side components to produce faster sites</li>
+         </p>
+
+        <ul>
+            <li>What is responsive web design (RWD)</li>
+            <li>How to write HTML thats RWD ready</li>
+            <li>Why we need RWD</li>
+            <li>What is progressive enhancement</li>
+        </ul>
+
+        <h2>Lesson 17: Designing for Mobile Devices</h2>
+
+        <p>The main reason mobile design is important is because more and more people are using mobile
+         devices to access the web.Mobile First is primarily an implementation of progressive enhancement. You focus on getting the
+         required content and functionality to as many customers as possible and then enhance the site
+         for more diverse devices.</p>
+
+        <p>
+         Traditionally, a web designer first built a website for desktop users and then modified that site for
+         mobile users. Mobile First design turns that formula on its head: It says to build a site for mobile
+         users first and then adjust it to work for desktop users.Two aspects of websites that can be difficult to make responsive are tables and images. Data
+         tables are often very big and can thus be very difficult to handle in a responsive design, especially
+         for small devices.</p>
+
+        <ul>
+            <li>How to use CSS columns to create responsive designs without media queries</li>
+            <li>How mobile design differs from standard web design</li>
+            <li>How Mobile First is important to RWD</li>
+            <li>What the Mobile First design philosophy is...</li>
+            <li>How to build responsive tables and images for mobile devices</li>
+        </ul>
+
+        <h2>Lesson 18: Using Media Queries and Breakpoints</h2>
+
+        <p>According to the W3C, a media query is a “logical expression that is either true or false. A media
+         query is true if the media type of the media query matches the media type of the device.
+         <br>There are 10 media types you can test for with CSS media queries:<br>
+          <li>all—All media</li>
+          <li>braille—Braille and tactile feedback devices</li>
+          <li>embossed—Paged braille printers</li>
+          <li>handheld—Small-screen low-bandwidth handheld devices</li>
+          <li>print—Paged media and documents in print preview mode</li>
+          <li>projection—Projected presentations</li>
+          <li>screen—Color computer screens</li>
+          <li>speech—Speech synthesizers</li>
+          <li>tty—Teletypes and media with a fixed-pitch character grid</li>
+          <li>tv—Television</li>
+        </p>
+
+        <p>A CSS breakpoint is a device feature with a media query declaration assigned to it. They are most
+         commonly based on browser widths, so most designers think of breakpoints as places where the
+         width of the design changes to accommodate different devices.Defining breakpoints is done with CSS media queries. The most common type of breakpoint is
+         based on the width of the device.Media query expressions are the basis of responsive web design. </p>
+
+        <ul>
+            <li>How to write a CSS media query</li>
+            <li>How to define breakpoints</li>
+            <li>What CSS breakpoints are:</li>
+            <li>How to find the best breakpoints for your website</li>
+            <li>Understanding logical keywords in your queries</li>
+            <li>How to use different media types</li>
+            <li>How to create media query expressions</li>
+        </ul>  
+</body>
+</html>
